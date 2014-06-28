@@ -1,0 +1,16 @@
+{
+  "name": "davispuh-systemd",
+  "version": "0.1.0",
+  "author": "davispuh",
+  "summary": "Configure system (hostname, locale, timezone) using Systemd",
+  "license": "UNLICENSE",
+  "source": "https://github.com/davispuh/Puppet-Systemd.git",
+  "project_page": "https://github.com/davispuh/Puppet-Systemd",
+  "issues_url": "https://github.com/davispuh/Puppet-Systemd/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}
