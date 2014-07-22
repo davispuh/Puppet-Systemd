@@ -5,11 +5,12 @@
 1. [Overview](#overview)
 2. [Setup - The basics of getting started with systemd](#setup)
     * [What systemd affects](#what-systemd-affects)
-3. [Usage - Configuration options and additional functionality](#usage)
-4. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
-5. [Limitations - OS compatibility, etc.](#limitations)
-6. [Unlicense - This module is Unlicensed](#unlicense)
-7. [Contributing - Guide for contributing to the module](#development)
+3. [Requirements - Module requirements](#eequirements)
+4. [Usage - Configuration options and additional functionality](#usage)
+5. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
+6. [Limitations - OS compatibility, etc.](#limitations)
+7. [Unlicense - This module is Unlicensed](#unlicense)
+8. [Contributing - Guide for contributing to the module](#development)
 
 ## Overview
 
