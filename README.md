@@ -22,6 +22,12 @@ Currently implemented is only configuration for hostname, locale, timezone.
 
 Systemd module makes sure that systemd is installed and allows configuring hostname, locale and timezone.
 
+## Requirements
+
+* Puppet 3.5 or later
+* `trusted_node_data = true` set in `puppet.conf`
+
+
 ## Usage
 
 For just installing systemd, use
