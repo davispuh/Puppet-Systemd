@@ -1,6 +1,6 @@
 {
   "name": "davispuh-systemd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "davispuh",
   "summary": "Configure system (hostname, locale, timezone) using Systemd",
   "license": "UNLICENSE",
