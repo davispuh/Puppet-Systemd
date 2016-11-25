@@ -12,8 +12,10 @@ lib/bundler/man
 pkg
 rdoc
 spec/reports
+spec/fixtures/modules
 test/tmp
 test/version_tmp
+vendor/
 tmp
 *.bundle
 *.so
