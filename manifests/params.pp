@@ -48,8 +48,8 @@ class systemd::params (
   $x11keymap               = undef,
   $hostname                = 'localhost',
   $timezone                = 'UTC',
-  $local_rtc               = 'false',
-  $use_ntp                 = 'true',
+  $local_rtc               = false,
+  $use_ntp                 = true,
 
   $command_path            = ['/usr/bin', '/usr/sbin'],
   $command_timeout         = 3,

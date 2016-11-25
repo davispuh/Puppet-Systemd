@@ -24,9 +24,9 @@ class systemd::hostname (
 
   if $hostname {
     exec { "${hostname_command} ${hostname}":
-    path        => $command_path,
-    returns     => 0,
-    timeout     => $command_timeout
+    path    => $command_path,
+    returns => 0,
+    timeout => $command_timeout
     }
   }
 

@@ -35,25 +35,25 @@ class systemd::timezone (
 
   if $timezone {
     exec { "${timezone_command} ${timezone}":
-    path        => $command_path,
-    returns     => 0,
-    timeout     => $command_timeout
+    path    => $command_path,
+    returns => 0,
+    timeout => $command_timeout
     }
   }
-  
+
   if $local_rtc {
     exec { "${rtc_command} ${local_rtc}":
-    path        => $command_path,
-    returns     => 0,
-    timeout     => $command_timeout
+    path    => $command_path,
+    returns => 0,
+    timeout => $command_timeout
     }
   }
-  
+
   if $use_ntp {
     exec { "${ntp_command} ${use_ntp}":
-    path        => $command_path,
-    returns     => 0,
-    timeout     => $command_timeout
+    path    => $command_path,
+    returns => 0,
+    timeout => $command_timeout
     }
   }
 

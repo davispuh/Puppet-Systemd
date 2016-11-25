@@ -35,25 +35,25 @@ class systemd::locale (
 
   if $locale {
     exec { "${locale_command} LANG=${locale}":
-    path        => $command_path,
-    returns     => 0,
-    timeout     => $command_timeout
+    path    => $command_path,
+    returns => 0,
+    timeout => $command_timeout
     }
   }
 
   if $keymap {
     exec { "${keymap_command} ${keymap}":
-    path        => $command_path,
-    returns     => 0,
-    timeout     => $command_timeout
+    path    => $command_path,
+    returns => 0,
+    timeout => $command_timeout
     }
   }
-  
+
   if $x11keymap {
     exec { "${x11keymap_command} ${x11keymap}":
-    path        => $command_path,
-    returns     => 0,
-    timeout     => $command_timeout
+    path    => $command_path,
+    returns => 0,
+    timeout => $command_timeout
     }
   }
 
